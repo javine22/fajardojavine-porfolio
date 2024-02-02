@@ -1,0 +1,103 @@
+/* Updated CSS Styles with Open Sans font */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("C:/Users/javine justy fajardo/Documents/GitHub/javine22-porfolio/418713433_799255982040038_8719943231282062581_n.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #443f5b; 
+    color: #fff;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(198, 212, 231, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #333;
+    color: #544949;
+    text-align: center;
+    padding: 20px 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.profile img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 3px solid #fff; /* Add a white border around the image */
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.project {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.project h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.project p {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    background-color: #ddd;
+    padding: 5px 10px;
+    border-radius: 3px;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a:hover {
+    background-color: #555;
+    color: #ab9898;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
